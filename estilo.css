@@ -1,6 +1,6 @@
 
 /*contenedor flex*/
-div.flex-container { 
+main { 
     display: flex; 
     flex-wrap: wrap;
     background-color: rgb(175, 175, 175);
@@ -8,7 +8,7 @@ div.flex-container {
 }
 
 /*div dentro del contenedor flex*/
-.flex-container > div {
+section {
     background-color: #888888;
     width: 600px;
     margin: 10px;
@@ -17,13 +17,25 @@ div.flex-container {
     margin-right: auto;
     margin-bottom: 10px;
   }
-  span {
+  section.iframe {
+    background-color: #888888;
+    width: 600px;
+    margin: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+  }
+  header {
     background-color: #f1f1f1;
     width: auto;
     margin: 10px;
     padding: 5px;
-    width: auto;
     text-align: center;
+  }
+  iframe {
+    display: block;
   }
 
 body {
